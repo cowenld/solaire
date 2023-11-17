@@ -11,9 +11,14 @@
     "postinstall": "electron-builder install-app-deps"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.449.0",
+    "@aws-sdk/client-textract": "^3.449.0",
+    "@aws-sdk/credential-provider-ini": "^3.450.0",
     "@heroicons/react": "^2.0.18",
+    "ai": "^2.2.22",
     "electron-serve": "^1.2.0",
-    "electron-store": "^8.1.0"
+    "electron-store": "^8.1.0",
+    "openai": "^4.17.5"
   },
   "devDependencies": {
     "@types/node": "^20.9.0",
